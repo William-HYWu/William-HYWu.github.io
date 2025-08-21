@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* BSE in Computer Science, University of Michigan, 2027 (expected)
-* BE in Mechanical Engineering, Shanghai Jiao Tong Unversity, 2027 (expected)
+* BSE in Computer Science, University of Michigan, 2027 **(Expected)**
+* BE in Mechanical Engineering, Shanghai Jiao Tong Unversity, 2027 **(GPA: 3.97/4.0, Ranking: 1/336)**
 
 Research/Internship
 ======
