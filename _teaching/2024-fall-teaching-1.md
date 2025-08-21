@@ -3,7 +3,7 @@ title: "Teaching Assistant"
 collection: teaching
 type: "ENGL1000J Academic Writing I"
 venue: "Shanghai Jiao Tong University"
-date: 2024-09
+date: 2024-09-01
 location: "Shanghai, China"
 ---
 

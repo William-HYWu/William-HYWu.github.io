@@ -3,7 +3,7 @@ title: "Teaching Assistant"
 collection: teaching
 type: "ECE2800J Programming and Elem. Data Structure"
 venue: "Shanghai Jiao Tong University"
-date: 2025-02
+date: 2025-03-01
 location: "Shanghai, China"
 ---
 
