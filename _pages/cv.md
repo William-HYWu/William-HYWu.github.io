@@ -11,26 +11,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* BSE in Computer Science, University of Michigan, 2027 (expected)
+* BE in Mechanical Engineering, Shanghai Jiao Tong Unversity, 2027 (expected)
 
-Work experience
+Research/Internship
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research) (Advisor: Prof.Yutong Ban)
   
 Skills
 ======
