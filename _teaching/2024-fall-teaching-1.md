@@ -8,12 +8,3 @@ location: "Shanghai, China"
 ---
 
 Teaching Assistant for ENGL1000J: Held office hours to assist students in revising and improving their course papers.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
