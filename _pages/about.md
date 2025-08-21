@@ -15,14 +15,6 @@ Previously at SJTU, I'm passionate about the medical imaging and worked as a res
 
 # Publications
 
-{% if site.publication_category %}
-{% for category in site.publication_category  %}
-{% assign title_shown = false %}
 {% for post in site.publications reversed %}
-{% if post.category != category[0] %}
-{% continue %}
-{% endif %}
-{% include archive-mainpage.html %}
+  {% include archive-single.html %}
 {% endfor %}
-{% endfor %}
-{% endif %}
