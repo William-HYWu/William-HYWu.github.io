@@ -14,3 +14,15 @@ Previously at SJTU, I'm passionate about the medical imaging and worked as a res
 **I am actively seeking research opportunities of all kinds, including remote collaborations. Please feel free to reach out if you'd like to connect or discuss potential projects!**
 
 # Publications
+
+{% if site.publication_category %}
+{% for category in site.publication_category  %}
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+{% if post.category != category[0] %}
+{% continue %}
+{% endif %}
+{% include archive-mainpage.html %}
+{% endfor %}
+{% endfor %}
+{% endif %}
