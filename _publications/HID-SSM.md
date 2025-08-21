@@ -1,13 +1,15 @@
 ---
-title: "Holistic Surgical Phase Recognition with Hierarchical Input Dependent State Space Models"
+title: "AdaptMI: Adaptive Skill-based In-context Math Instruction for Small Language Models"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/HID-SSM
-excerpt: 'Surgical workflow analysis is essential in robot-assisted surgeries, yet the long duration of such procedures poses significant challenges for comprehensive video analysis. Recent approaches have predominantly relied on transformer models; however, their quadratic attention mechanism restricts efficient processing of lengthy surgical videos. In this paper, we propose a novel hierarchical input-dependent state space model that leverages the linear scaling property of state space models to enable decision making on full-length videos while capturing both local and global dynamics. Our framework incorporates a temporally consistent visual feature extractor, which appends a state space model head to a visual feature extractor to propagate temporal information. The proposed model consists of two key modules: a local-aggregation state space model block that effectively captures intricate local dynamics, and a global-relation state space model block that models temporal dependencies across the entire video. The model is trained using a hybrid discrete-continuous supervision strategy, where both signals of discrete phase labels and continuous phase progresses are propagated through the network. Experiments have shown that our method outperforms the current state-of-the-art methods by a large margin (+2.8% on Cholec80, +4.3% on MICCAI2016, and +12.9% on Heichole datasets). Code will be publicly available after paper acceptance.'
-date: 2025-06-26
-venue: 'In submission to IEEE TMI'
-slidesurl: 'https://william-hywu.github.io/HID-SSM/'
-paperurl: 'https://arxiv.org/abs/2506.21330'
-citation: "<b>Haoyang Wu</b>, Tsun-Hsuan Wang, Mathias Lechner, Ramin Hasani, Jennifer A. Eckhoff, Paul Pak, Ozanan R. Meireles, Guy Rosman, Yutong Ban, Daniela Rus"
+citation: "<b>Yinghui He</b>, Abhishek Panigrahi, Yong Lin, Sanjeev Arora"
+excerpt: "Kids improve when a good teacher offers adaptive, targeted feedback. Can a small LLM benefit if a large LLM provide helpful feedback, in-context?? Naive ideas fail here.
+We propose AdaptMI: adaptive, skill-based in-context supervision that boosts 1B models by 6% on challenging math tasks."
+date: 2025-04-30
+venue: "COLM 2025; ICML 2025 Workshop on Test-Time Adaptation; ICML 2025 Methods and Opportunities at Small Scale Workshop"
+# slidesurl: "https://lit.eecs.umich.edu/Hi-ToM/"
+paperurl: "https://arxiv.org/abs/2505.00147"
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+**_Abstract_**: The rise of LLM-driven AI characters raises safety concerns, particularly for vulnerable human users with psychological disorders. To address these risks, we propose EmoAgent, a multi-agent AI framework designed to evaluate and mitigate mental health hazards in human-AI interactions. EmoAgent comprises two components: EmoEval simulates virtual users, including those portraying mentally vulnerable individuals, to assess mental health changes before and after interactions with AI characters. It uses clinically proven psychological and psychiatric assessment tools (PHQ-9, PDI, PANSS) to evaluate mental risks induced by LLM. EmoGuard serves as an intermediary, monitoring users' mental status, predicting potential harm, and providing corrective feedback to mitigate risks. Experiments conducted in popular character-based chatbots show that emotionally engaging dialogues can lead to psychological deterioration in vulnerable users, with mental state deterioration in more than 34.4% of the simulations. EmoGuard significantly reduces these deterioration rates, underscoring its role in ensuring safer AI-human interactions.
