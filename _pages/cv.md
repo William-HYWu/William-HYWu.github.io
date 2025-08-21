@@ -16,6 +16,7 @@ Education
 Research/Internship
 ======
 * [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research) (Advisor: Prof. Yutong Ban)
+* Alibaba Group (Assistant Product Manager)
   
 Skills
 ======
