@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -16,7 +15,7 @@ Education
 
 Research/Internship
 ======
-* [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research) (Advisor: Prof.Yutong Ban)
+* [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research) (Advisor: Prof. Yutong Ban)
   
 Skills
 ======
