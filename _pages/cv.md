@@ -18,7 +18,7 @@ redirect_from:
 
 # Honors & Awards
 - _Tang Jun Yuan Scholarship_ **(Top 1%)**, Shanghai Jiao Tong University, 2025
-- _Shanghai Jiao Tong University First Class Scholarship_ **(Top 2%)**, Shanghai Jiao Tong University, 2024
+- _Shanghai Jiao Tong University First Class Scholarship_ **(Top 1%)**, Shanghai Jiao Tong University, 2024
 - _National Undergraduate Scholarship_ **(Top 2%)**, Ministry of Education of the People's Republic of China, 2024
 - _John Wu and Jane Sun Sunshine Scholarship_ **(Top 5%)**, Shanghai Jiao Tong University, 2024
 
