@@ -10,7 +10,7 @@ redirect_from:
 
 # Education
 * BSE in Computer Science, University of Michigan, 2027 **(Expected)**
-* BE in Mechanical Engineering, Shanghai Jiao Tong Unversity, 2027 **(GPA: 3.97/4.0, Ranking: 1/336)**
+* BE in Mechanical Engineering, Shanghai Jiao Tong Unversity, 2027 **(Overall GPA: 3.97/4.0, Major GPA: 4.0/4.0, Ranking: 1/336)**
 
 # Research/Internship
 * [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research) (Advisor: Prof. Yutong Ban)
