@@ -9,9 +9,9 @@ redirect_from:
 
 Hi! I'm Haoyang Wu, a junior CS major student at the University of Michigan. I'm also pursuing a dual degree in Mechanical Engineering at Shanghai Jiao Tong University (SJTU), expected to graduate in 2027.
 
-Previously at SJTU, I'm passionate about surgical robotics and worked as a research assistant at the [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research), supervised by Prof. [Yutong Ban](https://people.csail.mit.edu/yban/). Currently, I am working to broaden my research experience in computer vision (including medical imaging), robot learning, and theoretical machine learning topics.
+Currently, my research interests lie in machine learning theory and model interpretability, advised by Prof. [Wei Hu](https://weihu.me). Previously, at SJTU, I was deeply engaged in surgical robotics as a research assistant at the [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/index.html#research), I am especially grateful for the mentorship of Prof. [Yutong Ban](https://people.csail.mit.edu/yban/), and had the honor of collaborating with Dr. [Tsun-hsuan Wang](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://zswang666.github.io/&ved=2ahUKEwi6otuVlbGPAxX9g4kEHbRgMOQQFnoECBMQAQ&usg=AOvVaw3oMe-gRD9lMPywO1SvhM8O).
 
-**I am actively seeking research opportunities of all kinds. Please feel free to reach out if you'd like to connect or discuss potential projects!**
+**I am actively seeking research collaborations of all kinds. Please feel free to reach out if you'd like to connect or discuss potential projects!**
 
 # Publications
 
