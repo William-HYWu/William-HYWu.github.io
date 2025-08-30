@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Haoyang Wu"
+title                    : "Haoyang Wu (吴浩洋)"
 title_separator          : "-"
 name                     : &name "Haoyang Wu"
 description              : &description "personal description"
@@ -22,8 +22,8 @@ repository               : "William-HYWu/https://william-hywu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Haoyang Wu (吴浩洋)"
+  avatar           : "avatar.png"
+  name             : "Haoyang Wu"
   pronouns         : # example: "she/her"  
   bio              : "Dual degree student in CS@UM and ME@SJTU."
   location         : "Ann Arbor, MI"
