@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Haoyang Wu (吴浩洋)"
+title                    : "Haoyang Wu"
 title_separator          : "-"
 name                     : &name "Haoyang Wu"
 description              : &description "personal description"

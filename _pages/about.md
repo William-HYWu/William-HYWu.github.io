@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haoyang Wu"
+title: "Haoyang Wu (吴浩洋)"
 author_profile: true
 redirect_from: 
   - /about/
