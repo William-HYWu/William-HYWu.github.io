@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "ECE2800J Advanced Data Structures and Algorithms"
+type: "ECE2810J Advanced Data Structures and Algorithms"
 venue: "Shanghai Jiao Tong University"
 date: 2025-09-01
 location: "Shanghai, China"
