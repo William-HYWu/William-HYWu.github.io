@@ -17,7 +17,7 @@ header:
   </div>
   <div style="flex: 1;">
     <p style="font-size: 16px; line-height: 1.6;">
-      We propose a hierarchical input-dependent state space model that leverages the linear scalability of SSMs for decision-making on full-length videos. Our framework integrates a temporally consistent visual encoder with an SSM head to propagate temporal information. It comprises two key modules: a local aggregation block for fine-grained dynamics and a global relation block for long-range temporal dependencies.
+      We propose a hierarchical input-dependent state space model that leverages the linear scalability of SSMs for decision-making over full-length videos. Our framework couples a temporally consistent visual encoder with an SSM head to propagate temporal information. The temporal module consists of two components: a local aggregation block for fine-grained dynamics and a global relation block for long-range dependencies.
     </p>
   </div>
 </div>
