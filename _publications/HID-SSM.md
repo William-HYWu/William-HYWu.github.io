@@ -8,3 +8,5 @@ slidesurl: 'https://william-hywu.github.io/HID-SSM/'
 paperurl: 'https://arxiv.org/abs/2506.21330'
 citation: "<b>Haoyang Wu</b>, Tsun-Hsuan Wang, Mathias Lechner, Ramin Hasani, Jennifer A. Eckhoff, Paul Pak, Ozanan R. Meireles, Guy Rosman, Yutong Ban, Daniela Rus"
 ---
+
+<img src="{{ site.baseurl }}/images/HID-SSM.png" alt="HID-SSM Framework" style="width: 100%; max-width: 800px; margin: 20px 0;">
