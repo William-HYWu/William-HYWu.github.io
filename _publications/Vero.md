@@ -3,7 +3,7 @@ title: "Vero: An Open RL Recipe for General Visual Reasoning"
 collection: publications
 category: manuscripts
 date: 2026-04-06
-venue: 'Arxiv'
+venue: 'In submission to ECCV'
 slidesurl: 'https://vero-reasoning.github.io'
 paperurl: 'https://arxiv.org/abs/2604.04917'
 citation: "Gabriel Sarch, Linrong Cai, Qunzhong Wang, <b>Haoyang Wu</b>, Danqi Chen, Zhuang Liu"
