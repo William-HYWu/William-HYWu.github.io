@@ -12,10 +12,7 @@ header:
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 20px;">
   <div style="flex: 0 0 250px;">
-    <video width="250" autoplay loop muted playsinline preload="auto" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      <source src="{{ site.baseurl }}/images/HID-SSM.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img src="{{ site.baseurl }}/images/Vero_teaser.png" alt="Vero Teaser" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
   <div style="flex: 1;">
     <p style="font-size: 16px; line-height: 1.6;">
