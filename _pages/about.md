@@ -22,3 +22,9 @@ You can find my resume (updated 09/21/2025) [here](https://william-hywu.github.i
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+# Teaching
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
