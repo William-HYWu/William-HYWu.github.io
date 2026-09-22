@@ -5,7 +5,7 @@ category: manuscripts
 date: 2027-09-21
 venue: 'In submission to ICRA'
 paperurl: 'https://arxiv.org/pdf/2609.23944'
-citation: "Haoyang Wu, Abhinav Kumar, Dmitry Berenson"
+citation: "<b>Haoyang Wu</b>, Abhinav Kumar, Dmitry Berenson"
 header:
   teaser: /images/TIVP_teaser.jpeg
 ---
