@@ -13,9 +13,9 @@ I am broadly interested in embodied AI, robot learning, and vision-language mode
 
 I am currently a research intern at Princeton University, working with [Prof. Zhuang Liu](https://liuzhuang13.github.io) and [Prof. Danqi Chen](https://www.cs.princeton.edu/~danqic/). I also work as a research intern in the [ARM Lab](https://arm.robotics.umich.edu) directed by [Prof. Dmitry Berenson](https://berenson.robotics.umich.edu). Previously at SJTU, I was deeply engaged in surgical robotics research at the [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/), mentored by [Prof. Yutong Ban](https://people.csail.mit.edu/yban/). 
 
-You can find my resume (updated 04/06/2025) [here](https://william-hywu.github.io/files/Resume_Haoyang Wu_internship.pdf)
+You can find my resume (updated 04/06/2025) [here](https://william-hywu.github.io/files/Resume_Haoyang Wu.pdf)
 
-**I will be joining Princeton University as a visiting intern this summer! See you in Princeton**
+**I'm actively searching for PhD opportunities in Robotics starting Fall 2027**
 
 # Publications
 
