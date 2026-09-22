@@ -12,7 +12,7 @@ header:
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 20px;">
   <div style="flex: 0 0 250px;">
-    <img src="{{ site.baseurl }}/images/TIVP_teaser.png" alt="TIVP Teaser" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="{{ site.baseurl }}/images/TIVP_teaser.jpeg" alt="TIVP Teaser" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   </div>
   <div style="flex: 1;">
     <p style="font-size: 16px; line-height: 1.6;">
