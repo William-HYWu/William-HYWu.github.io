@@ -2,8 +2,8 @@
 title: "Topology-Informed Visual Prompting For Vision Language Action Policies"
 collection: publications
 category: manuscripts
-date: 2026-09-21
-venue: 'In submission to ICRA 2027'
+date: 2027-09-21
+venue: 'In submission to ICRA'
 paperurl: 'https://arxiv.org/pdf/2609.23944'
 citation: "Haoyang Wu, Abhinav Kumar, Dmitry Berenson"
 header:
