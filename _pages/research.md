@@ -3,7 +3,7 @@ layout: academic
 title: Research
 permalink: /research/
 description: Embodied intelligence, visual reasoning, and robot learning.
-nav: true
+nav: false
 nav_order: 1
 ---
 

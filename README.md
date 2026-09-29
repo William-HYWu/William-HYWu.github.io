@@ -1,6 +1,6 @@
 # Haoyang Wu — personal website
 
-Academic website built with [al-folio](https://github.com/alshedivat/al-folio), with a custom responsive layout and separate About, Research, Publications, Teaching, and CV pages. Deployed through GitHub Pages.
+Academic website built with [al-folio](https://github.com/alshedivat/al-folio), with a custom responsive layout and About, Publications, Teaching, and CV tabs. Research experience appears on the homepage. Deployed through GitHub Pages.
 
 ## Local development
 
