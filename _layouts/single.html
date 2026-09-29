@@ -43,7 +43,10 @@ layout: default
             datetime="{{ page.modified | date: " %Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
+        {% if page.citation and page.paperurl and page.websiteurl %}
+        <p>{{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a
+            href="{{ page.websiteurl }}">Project Website</a></p>
+        {% elsif page.citation and page.paperurl and page.slidesurl %}
         <p>{{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a
             href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl %}
