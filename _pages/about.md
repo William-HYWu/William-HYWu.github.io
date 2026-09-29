@@ -10,7 +10,7 @@ nav: false
     <img class="portrait" src="{{ '/assets/img/profile.png' | relative_url }}" alt="Haoyang Wu" width="186" height="186" fetchpriority="high">
     <div class="profile-identity">
       <h1 class="profile-name">Haoyang Wu</h1>
-      <p class="profile-role">Undergraduate researcher</p>
+      <p class="profile-role">Research Intern</p>
       <p class="profile-institution">University of Michigan</p>
       <p class="profile-location">Ann Arbor, Michigan</p>
     </div>
