@@ -1,30 +1,43 @@
 ---
+layout: about
+title: Haoyang Wu
 permalink: /
-title: "Haoyang Wu (吴浩洋)"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+nav: false
+subtitle: Embodied AI · Robot Learning · Vision-Language Models
+
+profile:
+  align: right
+  image: profile.png
+  image_circular: false
+  more_info: >
+    <p>University of Michigan</p>
+    <p>Ann Arbor, Michigan</p>
+
+selected_papers: true
+social: true
+
+announcements:
+  enabled: false
+
+latest_posts:
+  enabled: false
 ---
 
-Hi! I’m Haoyang (William) Wu, a junior undergraduate student majoring in Computer Science at the University of Michigan. I am also pursuing a dual degree in Electrical and Computer Engineering at Shanghai Jiao Tong University, with an expected graduation in 2027.
+I am a junior undergraduate studying **Computer Science at the University of Michigan** and pursuing a dual degree in **Electrical and Computer Engineering at Shanghai Jiao Tong University**, with an expected graduation in 2027.
 
-I am broadly interested in embodied AI, robot learning, and vision-language models. My research goal is to develop scalable methods that enable robots to use high-level semantic understanding for precise, adaptive manipulation in unseen environments.
+My research focuses on embodied AI, robot learning, and vision-language models. I am interested in building scalable methods that give robots high-level semantic understanding while retaining the precision needed for adaptive manipulation in unseen environments.
 
-I am currently a research intern at Princeton University, working with [Prof. Zhuang Liu](https://liuzhuang13.github.io) and [Prof. Danqi Chen](https://www.cs.princeton.edu/~danqic/). I also work as a research intern in the [ARM Lab](https://arm.robotics.umich.edu) directed by [Prof. Dmitry Berenson](https://berenson.robotics.umich.edu). Previously at SJTU, I was deeply engaged in surgical robotics research at the [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/), mentored by [Prof. Yutong Ban](https://people.csail.mit.edu/yban/). 
+> **I am actively searching for PhD opportunities in Robotics starting Fall 2027.**
 
-You can find my resume (updated 09/21/2026) [here](https://william-hywu.github.io/files/Resume_Haoyang Wu.pdf)
+## Research experience
 
-**I'm actively searching for PhD opportunities in Robotics starting Fall 2027**
+I am currently a research intern at Princeton University with [Prof. Zhuang Liu](https://liuzhuang13.github.io) and [Prof. Danqi Chen](https://www.cs.princeton.edu/~danqic/). I also conduct research in the [ARM Lab](https://arm.robotics.umich.edu) at the University of Michigan, advised by [Prof. Dmitry Berenson](https://berenson.robotics.umich.edu).
 
-# Publications
+Previously, I worked on surgical robotics in the [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/) at Shanghai Jiao Tong University, mentored by [Prof. Yutong Ban](https://people.csail.mit.edu/yban/).
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Teaching & advising
 
-# Teaching
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+- **Teaching Assistant**, ECE2810J Advanced Data Structures and Algorithms, Shanghai Jiao Tong University — 2025
+- **Teaching Assistant**, ECE2800J Programming and Elementary Data Structures, Shanghai Jiao Tong University — 2025
+- **Teaching Assistant**, ENGL1000J Academic Writing I, Shanghai Jiao Tong University — 2024
+- **Academic Advisor**, UM–SJTU Joint Institute Advising Center — 2024
