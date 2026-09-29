@@ -1,0 +1,23 @@
+---
+---
+<article class="paper" id="{{ entry.key }}">
+  {% if entry.preview %}
+    <a class="paper-image" href="{{ entry.website | default: entry.pdf }}" aria-label="View {{ entry.title | escape }}">
+      <img src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="Overview of {{ entry.title | escape }}" width="420" height="280" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="paper-content">
+    <h3><a href="{{ entry.website | default: entry.pdf }}">{{ entry.title }}</a></h3>
+    <p class="paper-authors">
+      {% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if author.first == 'Haoyang' and author.last == 'Wu' %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}
+    </p>
+    <p class="paper-venue">{{ entry.journal | default: entry.booktitle }} · {{ entry.year }}</p>
+    <div class="paper-links">
+      {% if entry.pdf %}<a href="{{ entry.pdf }}">Paper</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>{% endif %}
+      {% if entry.website %}<a href="{{ entry.website }}">Project</a>{% endif %}
+      {% if entry.code %}<a href="{{ entry.code }}">Code</a>{% endif %}
+    </div>
+    {% if entry.abstract %}<details class="paper-abstract"><summary>Abstract</summary><p>{{ entry.abstract }}</p></details>{% endif %}
+  </div>
+</article>

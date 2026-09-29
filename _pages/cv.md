@@ -1,14 +1,17 @@
 ---
-layout: page
-title: cv
+layout: academic
+title: CV
 permalink: /cv/
-description: Curriculum vitae.
+description: Education, research, and academic experience.
 nav: true
 nav_order: 4
 ---
 
-[Download my CV as a PDF]({{ '/assets/pdf/Resume_Haoyang_Wu.pdf' | relative_url }}){: .btn .btn-primary }
+<div class="cv-toolbar">
+  <p>Haoyang Wu · Curriculum vitae</p>
+  <a class="download-link" href="{{ '/assets/pdf/Resume_Haoyang_Wu.pdf' | relative_url }}" download>Download PDF ↓</a>
+</div>
 
-<object data="{{ '/assets/pdf/Resume_Haoyang_Wu.pdf' | relative_url }}" type="application/pdf" width="100%" height="900">
-  <p>Your browser cannot display the PDF here. <a href="{{ '/assets/pdf/Resume_Haoyang_Wu.pdf' | relative_url }}">Download the CV instead.</a></p>
-</object>
+<a class="cv-preview" href="{{ '/assets/pdf/Resume_Haoyang_Wu.pdf' | relative_url }}" aria-label="Open Haoyang Wu's full CV as a PDF">
+  <img src="{{ '/assets/img/resume-preview.png' | relative_url }}" alt="Preview of Haoyang Wu's CV. Open the PDF for selectable, accessible text." width="1191" height="1684" loading="lazy">
+</a>

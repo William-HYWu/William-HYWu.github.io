@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% include head.liquid %}
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url | bust_file_cache }}">
+  </head>
+  <body class="academic-site">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">Haoyang Wu</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>About</a>
+          {% assign navigation_pages = site.pages | where: 'nav', true | sort: 'nav_order' %}
+          {% for navigation_page in navigation_pages %}
+            <a href="{{ navigation_page.url | relative_url }}" {% if page.url == navigation_page.url %}aria-current="page"{% endif %}>{{ navigation_page.title }}</a>
+          {% endfor %}
+        </nav>
+        {% if site.enable_darkmode %}
+          <button id="light-toggle" class="theme-toggle" type="button" title="Change color theme" aria-label="Change color theme">
+            <i class="fa-half-sun-moon" id="light-toggle-system" aria-hidden="true"></i>
+            <i class="fa-solid fa-moon" id="light-toggle-dark" aria-hidden="true"></i>
+            <i class="fa-solid fa-sun" id="light-toggle-light" aria-hidden="true"></i>
+          </button>
+        {% endif %}
+      </div>
+    </header>
+    <main id="main-content" class="site-main" tabindex="-1">
+      {% unless page.permalink == '/' %}
+        <header class="page-heading">
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+        </header>
+      {% endunless %}
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <span>© {{ site.time | date: '%Y' }} Haoyang Wu</span>
+      <a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a>
+    </footer>
+    {% include scripts.liquid %}
+  </body>
+</html>
