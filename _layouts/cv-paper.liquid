@@ -1,0 +1,11 @@
+---
+---
+<article class="cv-entry">
+  <h3><a href="{{ entry.website | default: entry.pdf }}">{{ entry.title }}</a></h3>
+  <p class="cv-detail">{% for author in entry.author_array %}{% unless forloop.first %}, {% endunless %}{% if author.first == 'Haoyang' and author.last == 'Wu' %}<strong>{{ author.first }} {{ author.last }}</strong>{% else %}{{ author.first }} {{ author.last }}{% endif %}{% endfor %}</p>
+  <p>{{ entry.journal | default: entry.booktitle }} · {{ entry.year }}</p>
+  <div class="paper-links">
+    {% if entry.pdf %}<a href="{{ entry.pdf }}">Paper</a>{% endif %}
+    {% if entry.website %}<a href="{{ entry.website }}">Project</a>{% endif %}
+  </div>
+</article>

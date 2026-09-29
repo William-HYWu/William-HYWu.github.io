@@ -93,8 +93,23 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
 .cv-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 24px; }
 .academic-site .cv-toolbar p { color: var(--academic-muted); font-size: 14px; margin: 0; }
 .academic-site .download-link { display: inline-block; padding: 9px 18px; border: 1px solid var(--academic-accent); border-radius: 4px; font-size: 14px; white-space: nowrap; }
-.cv-preview { display: block; border: 1px solid var(--academic-line); border-radius: 5px; overflow: hidden; }
-.cv-preview img { display: block; width: 100%; height: auto; }
+.cv-section { display: grid; grid-template-columns: 195px minmax(0, 1fr); gap: 45px; padding: 30px 0; border-top: 1px solid var(--academic-line); }
+.academic-site .cv-section > h2 { font-size: 18px; margin: 2px 0 0; }
+.cv-entries { display: grid; gap: 26px; }
+.cv-entry-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 20px; }
+.academic-site .cv-entry h3 { font-size: 17px; line-height: 1.5; margin: 0 0 5px; }
+.academic-site .cv-entry h3 a { color: var(--academic-heading); }
+.academic-site .cv-entry p { font-size: 14px; margin: 0 0 6px; }
+.academic-site .cv-entry .cv-detail, .cv-courses { font-size: 13px; color: var(--academic-muted); }
+.cv-date { font-size: 12px; color: var(--academic-muted); white-space: nowrap; }
+.cv-courses { margin: 10px 0 0; padding-left: 18px; }
+.cv-courses li { margin-bottom: 5px; }
+.academic-site .cv-publications ol.bibliography { list-style: none; margin: 0; padding: 0; display: grid; gap: 26px; }
+.academic-site .cv-publications ol.bibliography > li { padding: 0; margin: 0; }
+.cv-entry .paper-links { margin-top: 8px; }
+.cv-awards { list-style: none; padding: 0; margin: 0; font-size: 14px; }
+.cv-awards li { display: flex; justify-content: space-between; gap: 18px; align-items: baseline; padding-bottom: 13px; }
+.cv-awards li:last-child { padding-bottom: 0; }
 @media (max-width: 800px) {
   .site-header-inner { flex-wrap: wrap; gap: 0 20px; padding-top: 16px; }
   .site-nav { order: 3; flex-basis: 100%; justify-content: space-between; gap: 16px; }
@@ -106,6 +121,7 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
   .experience-row { grid-template-columns: 195px minmax(0, 1fr); gap: 28px; }
   .course-row { grid-template-columns: 55px minmax(0, 1fr); gap: 12px 22px; }
   .course-role { grid-column: 2; text-align: left; }
+  .cv-section { grid-template-columns: 160px minmax(0, 1fr); gap: 28px; }
 }
 @media (max-width: 600px) {
   body.academic-site { font-size: 15px; }
@@ -128,6 +144,9 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
   .paper-image { max-width: 300px; }
   .paper-image img { height: 170px; }
   .cv-toolbar { flex-direction: column; align-items: flex-start; }
+  .cv-section { grid-template-columns: 1fr; gap: 22px; padding: 26px 0; }
+  .cv-entry-heading { flex-direction: column; gap: 0; }
+  .cv-entry-heading .cv-date { margin-bottom: 8px; }
 }
 @media (max-width: 360px) {
   .site-nav { gap: 8px; }
@@ -139,5 +158,5 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
 @media print {
   .site-header, .site-footer, .skip-link, .theme-toggle { display: none; }
   .site-main { padding: 0; }
-  .paper, .experience-row, .course-row { break-inside: avoid; }
+  .paper, .experience-row, .course-row, .cv-entry { break-inside: avoid; }
 }

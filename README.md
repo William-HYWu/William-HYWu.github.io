@@ -23,9 +23,6 @@ Open `http://127.0.0.1:4000/`.
 - Social links: `_data/socials.yml`
 - Profile and publication images: `assets/img/`
 - Résumé: `assets/pdf/Resume_Haoyang_Wu.pdf`
+- Web CV: `_pages/cv.md`, with publications rendered by `_layouts/cv-paper.liquid`
 
-The CV page uses `assets/img/resume-preview.png` for a browser-independent preview and links to the original PDF for download and accessible text. When replacing the PDF, regenerate the preview (requires PyMuPDF):
-
-```bash
-python3 -c 'import pymupdf; doc = pymupdf.open("assets/pdf/Resume_Haoyang_Wu.pdf"); doc[0].get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=False).save("assets/img/resume-preview.png")'
-```
+The CV is rendered as selectable HTML using the site's shared typography, colors, and responsive layout. Its publications use `_bibliography/papers.bib`, shared with the Publications page. Keep the web CV and downloadable PDF up to date when changing education, roles, awards, or teaching experience.
