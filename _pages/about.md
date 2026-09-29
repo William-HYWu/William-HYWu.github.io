@@ -26,7 +26,7 @@ nav: false
   </aside>
   <div class="about-copy">
     <h2>About me</h2>
-    <p>I am a junior undergraduate studying Computer Science at the <strong>University of Michigan</strong> and pursuing a dual degree in Electrical and Computer Engineering at <strong>Shanghai Jiao Tong University</strong>, with an expected graduation in 2027.</p>
+    <p>I am a senior undergraduate studying Computer Science at the <strong>University of Michigan</strong> and pursuing a dual degree in Electrical and Computer Engineering at <strong>Shanghai Jiao Tong University</strong>, with an expected graduation in 2027.</p>
     <p>My research focuses on <strong>embodied AI, robot learning, and vision-language models</strong>. I am interested in building scalable methods that give robots high-level semantic understanding while retaining the precision needed for adaptive manipulation in unseen environments.</p>
     <p class="opportunity">I am actively searching for <strong>PhD opportunities in Robotics starting Fall 2027.</strong></p>
     <div class="home-details">
