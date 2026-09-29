@@ -34,7 +34,7 @@ nav: false
         <h2 id="interests-title">Research interests</h2>
         <ul class="interests">
           <li>Embodied AI &amp; robot learning</li>
-          <li>Vision-language-action models</li>
+          <li>Multimodal reasoning</li>
           <li>Adaptive robotic manipulation</li>
         </ul>
       </section>
@@ -46,3 +46,8 @@ nav: false
     </div>
   </div>
 </div>
+
+<section class="home-research" id="research-experience" aria-labelledby="research-experience-title">
+  <h2 id="research-experience-title">Research experience</h2>
+  {% include research-experience.liquid %}
+</section>

@@ -15,7 +15,8 @@ Open `http://127.0.0.1:4000/`.
 ## Content
 
 - Homepage: `_pages/about.md`
-- Research and teaching: `_pages/research.md`, `_pages/teaching.md`
+- Research experience (homepage and Research page): `_includes/research-experience.liquid`
+- Teaching: `_pages/teaching.md`
 - Publications: `_bibliography/papers.bib`
 - Page layout and styles: `_layouts/academic.liquid`, `assets/css/academic.css`
 - Publication layout: `_layouts/paper.liquid`
