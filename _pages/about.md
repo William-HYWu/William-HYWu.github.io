@@ -13,7 +13,7 @@ profile:
     <p>University of Michigan</p>
     <p>Ann Arbor, Michigan</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -29,15 +29,15 @@ My research focuses on embodied AI, robot learning, and vision-language models. 
 
 > **I am actively searching for PhD opportunities in Robotics starting Fall 2027.**
 
-## Research experience
+## Research interests
 
-I am currently a research intern at Princeton University with [Prof. Zhuang Liu](https://liuzhuang13.github.io) and [Prof. Danqi Chen](https://www.cs.princeton.edu/~danqic/). I also conduct research in the [ARM Lab](https://arm.robotics.umich.edu) at the University of Michigan, advised by [Prof. Dmitry Berenson](https://berenson.robotics.umich.edu).
+- Embodied AI and robot learning
+- Vision-language-action models
+- Adaptive robotic manipulation
 
-Previously, I worked on surgical robotics in the [SIRIUS Lab](https://banyutong.github.io/sirius_lab_website/) at Shanghai Jiao Tong University, mentored by [Prof. Yutong Ban](https://people.csail.mit.edu/yban/).
+## Education
 
-## Teaching & advising
+- **University of Michigan** — B.S.E. in Computer Science, expected 2027
+- **Shanghai Jiao Tong University** — B.E. in Electrical and Computer Engineering, expected 2027
 
-- **Teaching Assistant**, ECE2810J Advanced Data Structures and Algorithms, Shanghai Jiao Tong University — 2025
-- **Teaching Assistant**, ECE2800J Programming and Elementary Data Structures, Shanghai Jiao Tong University — 2025
-- **Teaching Assistant**, ENGL1000J Academic Writing I, Shanghai Jiao Tong University — 2024
-- **Academic Advisor**, UM–SJTU Joint Institute Advising Center — 2024
+Use the navigation above to explore my research experience, publications, teaching, and CV.
