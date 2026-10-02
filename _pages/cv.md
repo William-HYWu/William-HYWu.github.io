@@ -34,7 +34,7 @@ nav_order: 4
     <article class="cv-entry">
       <div class="cv-entry-heading"><h3>Princeton University</h3><span class="cv-date">Jan 2026 – Present</span></div>
       <p>Research Intern · Z Lab</p>
-      <p class="cv-detail">With <a href="https://liuzhuang13.github.io">Prof. Zhuang Liu</a></p>
+      <p class="cv-detail">Advised by <a href="https://liuzhuang13.github.io">Prof. Zhuang Liu</a></p>
     </article>
     <article class="cv-entry">
       <div class="cv-entry-heading"><h3>University of Michigan</h3><span class="cv-date">Sep 2025 – Present</span></div>
