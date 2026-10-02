@@ -21,13 +21,14 @@ nav: false
         <a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a>
         <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">LinkedIn</a>
         <a href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
+        <a href="{{ site.data.socials.cv_pdf | relative_url }}">CV</a>
       </div>
     </div>
   </aside>
   <div class="about-copy">
     <h2>About me</h2>
     <p>I am a senior undergraduate studying Computer Science at the <strong>University of Michigan</strong> and pursuing a dual degree in Electrical and Computer Engineering at <strong>Shanghai Jiao Tong University</strong>, with an expected graduation in 2027.</p>
-    <p>My research focuses on <strong>embodied AI, robot learning, and vision-language models</strong>. I am interested in building scalable methods that give robots high-level semantic understanding while retaining the precision needed for adaptive manipulation in unseen environments.</p>
+    <p>My research focuses on <strong>embodied AI, robot learning, and multimodal reasoning</strong>. I am interested in building scalable methods that give robots high-level semantic understanding while retaining the precision needed for adaptive manipulation in unseen environments.</p>
     <p class="opportunity">I am actively searching for <strong>PhD opportunities in Robotics starting Fall 2027.</strong></p>
     <div class="home-details">
       <section aria-labelledby="interests-title">
@@ -48,6 +49,6 @@ nav: false
 </div>
 
 <section class="home-research" id="research-experience" aria-labelledby="research-experience-title">
-  <h2 id="research-experience-title">Research experience</h2>
+  <h2 id="research-experience-title">Research timeline</h2>
   {% include research-experience.liquid %}
 </section>

@@ -3,7 +3,7 @@ layout: academic
 title: CV
 permalink: /cv/
 description: Education, research, and academic experience.
-nav: true
+nav: false
 nav_order: 4
 ---
 
