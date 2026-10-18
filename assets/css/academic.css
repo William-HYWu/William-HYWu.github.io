@@ -45,7 +45,7 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
 .page-heading p { color: var(--academic-muted); margin: 0; max-width: 650px; }
 .home-grid { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 68px; align-items: start; }
 .profile-column { text-align: center; }
-.portrait { display: block; width: 186px; height: 186px; object-fit: cover; object-position: 47% 40%; border-radius: 50%; margin: 0 auto 24px; }
+.portrait { display: block; width: 100%; height: auto; border-radius: 6px; margin: 0 auto 24px; }
 .academic-site .profile-name { font-size: 29px; margin-bottom: 8px; }
 .academic-site .profile-role { font-size: 14px; color: var(--academic-muted); margin-bottom: 5px; }
 .academic-site .profile-institution { font-size: 14px; margin-bottom: 2px; }
@@ -120,7 +120,6 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
   .academic-site .site-nav a { padding: 16px 0 13px; }
   .site-main { padding-top: 40px; }
   .home-grid { grid-template-columns: 190px minmax(0, 1fr); gap: 36px; }
-  .portrait { width: 166px; height: 166px; }
   .home-details { grid-template-columns: 1fr; gap: 20px; }
   .timeline-entry { grid-template-columns: 145px minmax(0, 1fr); gap: 28px; }
   .course-row { grid-template-columns: 55px minmax(0, 1fr); gap: 12px 22px; }
@@ -134,7 +133,7 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
   .site-footer { width: calc(100% - 44px); flex-wrap: wrap; }
   .home-grid { grid-template-columns: 1fr; gap: 35px; }
   .profile-column { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 0 22px; text-align: left; align-items: center; }
-  .portrait { width: 112px; height: 112px; margin: 0; }
+  .portrait { margin: 0; }
   .academic-site .profile-name { font-size: 25px; }
   .academic-site .profile-location { margin-bottom: 0; }
   .profile-contact { grid-column: 1 / -1; margin-top: 17px; }
@@ -160,7 +159,6 @@ body.academic-site { margin: 0; padding: 0; min-height: 100vh; display: flex; fl
   .site-nav { gap: 8px; }
   .academic-site .site-nav a { font-size: 12px; }
   .profile-column { grid-template-columns: 92px minmax(0, 1fr); gap: 0 16px; }
-  .portrait { width: 92px; height: 92px; }
   .academic-site .profile-name { font-size: 23px; }
 }
 @media print {

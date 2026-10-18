@@ -7,7 +7,7 @@ nav: false
 
 <div class="home-grid">
   <aside class="profile-column" aria-label="Profile and contact">
-    <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Haoyang Wu" width="186" height="186" fetchpriority="high">
+    <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Haoyang Wu" width="800" height="779" fetchpriority="high">
     <div class="profile-identity">
       <h1 class="profile-name">Haoyang Wu</h1>
       <p class="profile-role">Research Intern</p>
