@@ -3,6 +3,7 @@ layout: academic
 title: About
 permalink: /
 nav: false
+image: /assets/img/profile-full.jpg
 ---
 
 <div class="home-grid">
